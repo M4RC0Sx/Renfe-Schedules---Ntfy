@@ -1,0 +1,6 @@
+.env
+notifications.json
+__pycache__/
+*.py[cod]
+*$py.class
+*.txt
