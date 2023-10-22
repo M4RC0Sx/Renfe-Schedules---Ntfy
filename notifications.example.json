@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Office Train Schedule: IN",
+        "topic": "work",
+        "enabled": true,
+        "src_stop": 123,
+        "dst_stop": 456,
+        "alert_times": [
+            "MONDAY-08:00",
+            "TUESDAY-08:00",
+            "WEDNESDAY-08:00",
+            "THURSDAY-08:00",
+            "FRIDAY-08:00"
+        ],
+        "trips_to_show": 5
+    },
+    {
+        "name": "Office Train Schedule: OUT",
+        "topic": "work",
+        "enabled": true,
+        "src_stop": 456,
+        "dst_stop": 123,
+        "alert_times": [
+            "MONDAY-17:00",
+            "TUESDAY-17:00",
+            "WEDNESDAY-17:00",
+            "THURSDAY-17:00",
+            "FRIDAY-17:00"
+        ],
+        "trips_to_show": 3
+    }
+]
