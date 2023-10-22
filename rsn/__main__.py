@@ -22,7 +22,7 @@ NTFY_URL = os.getenv("NTFY_URL")
 
 def __load_notifications() -> list[Notification]:
     notifications: list[Notification] = []
-    with open('notifications.json', 'r') as f:
+    with open('config/notifications.json', 'r') as f:
         notifications_json = json.load(f)
         for notification_json in notifications_json:
             n = Notification(**notification_json)
